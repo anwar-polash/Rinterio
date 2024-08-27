@@ -40,7 +40,7 @@
                 "discuss": url('./assets/images/bg.jpg')lightgray 50% / cover no-repeat;
 
 
-,
+
             }
           },
         },
@@ -54,6 +54,7 @@
     <header class="bg-header-bg">
       <div class="max-w-[1170px] mx-auto px-[1.25rem] md:px-8 lg:px-0 bg-[background: linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);]">
         <!-- navbar staart -->
+
         <nav class="pt-[2.31rem] md:pt-[2.5rem] lg:pt-[3.13rem]">
           <div class="flex justify-between">
             <!-- nav logo -->
@@ -158,10 +159,14 @@
                     </ul>
                   </div>
                  </div>
+            </div>
           </div>
         </nav>
-        <!-- nav complete -->
-        <!-- hero section start -->
+      </div>
+        
+      <!-- nav complete -->
+
+       <!-- hero section start -->
           <section>
             <div class=" flex flex-col justify-center items-center md:mt-[3rem] mt-[2rem] mb-[2.5rem] md:mb-[4.48rem] lg:mt-[2.5rem]      lg:bb-[6.17rem]">
               <!-- hero image -->
@@ -432,7 +437,12 @@
       <!-- Our Articles section start --> 
       <section class="bg-[#fff]">
         <div class="max-w-[1170px] mx-auto px-[1.25rem] md:px-8 lg:px-0 py-[2rem] md:py-[4.5rem] lg:py-[6.25rem]">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class=" flex flex-col justify-center">
+            <h2 class="text-center text-[#212121] text-[1.5rem] md:text-[2rem] lg:text-[2.5rem] font-bold">Our Collections</h2>
+            <p class="text-center w-[42rem] mx-auto py-4 text-[#494949] text-[1rem] font-medium">Our company has been the leading provider of quality tiles and tile design services to customers since 1999. We pay attention to every aspect of our work.</p>
+            
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-[2rem]">
             <!-- card 1 -->
             <div class="w-full h-full">
              <div>
@@ -448,7 +458,7 @@
             <!-- card 2 -->
             <div class="w-full h-full">
               <div>
-               <img class="w-full h-full object-cover rounded-2xl " src="./assets/images/product-01-470x303.jpg" alt="">
+               <img class="w-full h-full object-cover rounded-2xl " src="./assets/images/post-2-524x355 (1).jpg" alt="">
               </div>
               <!-- content -->
                <div class="flex flex-row justify-start items-center gap-4 pt-3 pl-1">
@@ -476,7 +486,7 @@
               </div>
               <!-- content -->
                <div class="flex flex-row justify-start items-center gap-4 pt-3 pl-1">
-                 <h3 class="text-[2rem] font-bold text-[#F39C03]">01 November</h3>
+                 <h3 class="text-[2rem] font-bold text-[#F39C03]">01 July</h3>
                  <div class="w-[2px] h-[80px] bg-[#494949]"></div>
                  <p class="font-medium">Choosing the Right Tile</p>
                </div>
@@ -486,6 +496,7 @@
         </div>
         
       </section>
+
       <!-- Our Articles section end --> 
 
       <!-- Discuss section start --> 
@@ -517,19 +528,21 @@
           <!-- textarea -->
            <textarea name="" id="" placeholder="Write your message here" class="textarea w-full lg:[w-60.625rem] h-[15rem] rounded-[2rem] py-[1.06rem] px-5"></textarea>
            <!-- subnit  -->
-            <button class="w-full text-[1rem] bg-[#ABEF5F] font-extrabold py-3 px-5 rounded-[2rem]"  >Send Mail <div class="btn btn-circle btn-sm bg-black ">
+            <button class="w-full text-[1rem] bg-[#ABEF5F] font-extrabold py-3 px-5 rounded-[2rem] text-black  mt-8"  >Send Mail <div class="btn btn-circle btn-sm bg-black ">
               <i class="fa-solid fa-arrow-right text-white text-sm -rotate-45"></i>
             </div> </button>
          </form>
         </div>
        </div>
        </section>
+
        <!-- Discuss section end -->   
 
     </main>
-    <!-- main section start -->
+    <!-- main section end -->
 
     <!-- footer section start -->
+
     <footer class="bg-[#1C1C1C]">
       <div class=" max-w-[1170px] mx-auto px-[1.25rem] md:px-8 lg:px-0 py-[4.5rem] lg:py-[6.25rem]">
         <div class="w-full md:w-[42.375rem] mx-auto">
@@ -561,11 +574,8 @@
        </div>
       </div>
     </footer>
-    <div class="bg-[#F4F4F4] mt-6">
-     
-    </div>
-   
 
-
+    <!-- footer section end -->
+  
   </body>
 </html>
